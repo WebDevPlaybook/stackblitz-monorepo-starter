@@ -1,0 +1,16 @@
+{
+  "name": "react-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc -p tsconfig.app.json",
+    "typecheck": "tsc -p tsconfig.app.json --noEmit --pretty --customConditions ,",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "@org/ui-components": "*"
+  }
+}
